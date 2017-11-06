@@ -1,0 +1,123 @@
+body{
+     font-family: 'Roboto';
+     }
+
+.container-fluid{
+     padding-bottom: 50px;
+     padding-top: 50px;
+}
+
+/*navigation bar*/
+#navigation{
+     background-color: #08415C;
+     margin-bottom: 20px;
+}
+
+.navbar .navbar-header .navbar-brand{
+     color: #FFFFFF;
+     font-size: 3em;
+     padding-left: 30px;
+}
+
+#navlink{
+     color: #FFFFFF;
+     font-size: 1.5em;
+}
+
+.navbar-nav{
+     float: right;
+     padding-right: 30px;
+}
+
+/*home*/
+#main-img{
+     padding: 10px;
+     border-radius: 50%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.home{
+     background-color: #588B8B;
+     color: #FFFFFF;
+     padding-bottom: 40px;
+     margin-bottom: 40px;
+}
+
+/*about*/
+.about{
+     background-color: #138A36;
+     color: #FFFFFF;
+     padding-bottom: 40px;
+     margin-bottom: 40px;
+}
+
+/*skills*/
+.skills{
+     background-color: #388697;
+     color: #FFFFFF;
+     padding-bottom: 40px;
+     margin-bottom: 40px;
+}
+
+.skills i{
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+/*projects*/
+.projects{
+     background-color: #588B8B;
+     color: #FFFFFF;
+     padding-bottom: 40px;
+     margin-bottom: 40px;
+}
+
+.projects img{
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+/*footer*/
+.footer-bg{
+     background-color: #08415C;
+     color: #FFFFFF;
+}
+
+footer {
+     padding-top: center;
+     text-align: center;
+}
+
+/*address*/
+
+/*icons*/
+.fa{
+     font-size: 40px;
+     color: white;
+}
+
+.col-sm-4 .fa{
+     text-align: center;
+     padding-left: 10px;
+
+}
+
+/*form*/
+.theform{
+     color: #FFFFFF;
+     text-align: left;
+}
+
+.formHeader{
+     color: #FFFFFF;
+}
+
+input[type=submit]{
+     border-radius: 5px;
+     background-color: #FFFFFF;
+     color: #08415C;
+     border: 0 none;
+}
