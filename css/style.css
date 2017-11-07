@@ -29,6 +29,10 @@ body{
      padding-right: 30px;
 }
 
+.navbar {
+     margin-bottom: 0;
+}
+
 /*home*/
 #main-img{
      padding: 10px;
@@ -77,6 +81,19 @@ body{
 }
 
 .projects img{
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+/*Misc*/
+.misc{
+     background-color: #04E824;
+     color: #FFFFFF;
+     padding-bottom: 40px;
+     margin-bottom: 40px;
+}
+
+.misc img{
      padding-bottom: 20px;
      padding-top: 20px;
 }

@@ -172,6 +172,42 @@
           </div>
      </div>
 
+<!--MISC-->
+
+     <div class="container-fluid text-center misc">
+          <a name="misc"></a><h3>MISCELLANEOUS</h3>
+          <p>
+               When I'm not coding, I enjoy listening to hip hop.  3 of my favorite producers are:
+          </p>
+
+          <div class="row">
+               <div class="col-sm-4">
+                    <h4>Just Blaze</h4>
+                    <img style="border-radius:50%" src="https://s3.amazonaws.com/hiphopdx-production/2012/10/1-justblaze_10-25-2012-150x150.jpg" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')"/>
+                    <audio id='mySound' src="https://www.gotinstrumentals.com/front/beats/play/?beat_id=265668"></audio>
+                    <p style="text-align: justify">
+                         Hover over the picture to listen to the "What we do (Instrumental)" produced by Just Blaze.
+                    </p>
+               </div>
+               <div class="col-sm-4">
+                    <h4>J Dilla aka Jay Dee</h4>
+                    <img style="border-radius:50%" src="http://popblerd.com/wp-content/uploads/2012/02/Dilla-150x150.jpg" onmouseover="PlaySound('mySound3')" onmouseout="StopSound('mySound3')"/>
+                    <audio id='mySound3' src="http://www.hipstrumentals.com/wp-content/uploads/2017/02/The-Pharcyde-Runnin-Instrumental-Prod.-By-J-Dilla.mp3"></audio>
+                    <p>
+                         Hover over the picture to listen to the "Runnin' (Instrumental)" produced by J Dilla
+                    </p>
+               </div>
+               <div class="col-sm-4">
+                    <h4>The Alchemist</h4>
+                    <img style="border-radius:50%" src="http://urltv.tv/wp-content/uploads/2013/12/TheAlchemist-150x150.jpg" onmouseover="PlaySound('mySound2')" onmouseout="StopSound('mySound2')"/>
+                    <audio id='mySound2' src="http://cs1.mp3.pm/download/41520/SVRtRVJBa0ljc1FkeDE4d2NGU0p6bmNXMnJmdFE1RjdQTy91NUxuWlJqbnlZR1JpdTFmejJKRmFadG5PUWZXNXhIMWp4dG5xcWNNRTlZVGo3cnMvSzlYeFZacStXZHRNbS9lVzdEclhyNVU4SjFjRzJJbGVMd3JYYjVhZDhtSFU/Jadakiss_-_We_Gonna_Make_It_instrumental_(mp3.pm).mp3"></audio>
+                    <p>
+                         Hover over the picture to listen to the "We gonna make it (instrumental)" produced by The Alchemist.
+                    </p>
+               </div>
+          </div>
+     </div>
+
 <!-- FOOTER -->
      <footer class="container-fluid footer-bg">
           <div class="row">
@@ -214,5 +250,17 @@
 
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script>
+          function PlaySound(soundobj) {
+          var thissound=document.getElementById(soundobj);
+          thissound.play();
+          }
+
+          function StopSound(soundobj) {
+          var thissound=document.getElementById(soundobj);
+          thissound.pause();
+          thissound.currentTime = 0;
+          }
+     </script>
 </body>
 </html>
